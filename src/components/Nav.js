@@ -2,7 +2,7 @@ import React from "react";
 
 function Nav(){
     return (
-        <div className="nav-scroller py-1 mb-2 border-top border-bottom">
+        <div className="nav-scroller py-1 mb-2 border-top border-bottom bg-light">
             <nav className="nav d-flex justify-content-between">
                 <a className="p-2 link-secondary" href="#">World</a>
                 <a className="p-2 link-secondary" href="#">U.S.</a>
