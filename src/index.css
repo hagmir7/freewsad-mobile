@@ -16,8 +16,65 @@ a{text-decoration: none;}
 body{
   background-color: #f2f2f2;
 }
+.icon-input{
+  height: 45px;
+}
+.card-aps{
+  position: absolute;
+  bottom: -30px;
+  width: 86%;
+}
+.img-card{
+  object-fit: cover;
+  height: 240px;
+}
+.map-content{
+  bottom: 16px;
+  left: 36px;
+}
+.bg {
+  /* The image used */
+  background-image: url("https://images.unsplash.com/photo-1436491865332-7a61a109cc05?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60");
 
+  /* Full height */
+  height: 100%;
 
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.date{
+  border-radius: 3px;
+  border: 1.5px solid #0071c2;
+  height: 48px;
+ 
+  margin-right: 2px;
+  margin-left: -3px;
+}
+.date-item{
+  border: none;
+  padding: 6px;
+
+}
+.date-item:focus{
+  outline: none;
+}
+
+.content-form{
+  border: #0071c2 solid 2px;
+}
+select:focus, input:focus{
+  /* border: 2px solid #0071c2; */
+  outline: 0;
+  box-shadow: none!important;
+}
+.collapsed{background-color: rgb(0 0 0 / 20%);}
+
+.submit .btn-detail{
+  padding: 10px;
+  border: none;
+}
 
 /*  */
 
@@ -96,27 +153,38 @@ input[type=checkbox]{cursor: pointer;}
   font-size: 14px;
   cursor: pointer;
   transition: ease .5s;
-
+  width: 23%;
 }
+h1{color: #0071c2;}
 .box{
   transition: ease .5s;
 }
 .box:hover{
   box-shadow: rgb(0 0 0 / 20%) 0px 2px 8px 3px;
 }
-
+.company-flight{
+  font-size: 14px;
+}
+.date{font-size: 18px!important;}
 
 /* // X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) { 
+  .card-aps{
+    position: absolute;
+    bottom: -30px;
+    width: 93%;
+  }
   
  }
 
 /* // Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) { 
-  .header-link{
-    font-size: 11px;
-
+  .card-aps{
+    position: absolute;
+    bottom: -30px;
+    width: 93%;
   }
+
   
  }
 

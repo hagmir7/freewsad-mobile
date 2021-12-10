@@ -1,18 +1,29 @@
 import React from 'react'
+import Logo from '../assets/img/logo.png'
 
 export default function Footer() {
     return (
-        <footer className="text-muted py-3 bg-white mt-3">
-            <div className="container">
-                <p className="float-end mb-1">
-                    <a href="#" ><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" className="bi bi-arrow-up-circle-fill fs-1" viewBox="0 0 16 16"><path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/></svg></a>
-                </p>
-                <p className="mb-1">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis autem enim veniam dolore molestias,                   
-                </p>
-                <p>Created by <a href='https://www.hagmir.com' target='_blank'>Hassan Agmir</a></p>
-
+        <footer className="text-muted pb-3 bg-white">
+            <div className="container pt-3">
+                <div className="row">
+                    <p className="float-end mb-1 col-md-2 text-center">
+                        <img width="100px" src={Logo} alt="logo" />
+                    </p>
+                    <p className="mb-1 col-md-10">
+                        MASHITOOLS is a leading travel comparison site that lets you find cheap flights, hotels, car rentals and
+                        vacation package online. Whether you're traveling for fun, business, adventure, or relaxation, your
+                        ideal trip is simply a click away! You can compare airline fares, hotel rates, and car rentals from all
+                        the top internet travel sites in one location. Finding cheap flights has never been easier. Save time,
+                        save money; there's no need to visit website after website to find cheap airline ticket or the best
+                        deals. It's all here for you in one location.</p>
+                </div>
+                <div className="d-flex gap-5 justify-content-center mt-2">
+                    <a href="#">Private Policy</a>
+                    <a href="#">Terms & Conditions</a>
+                    <a href="#">About us</a>
+                </div>
             </div>
         </footer>
+
     )
 }

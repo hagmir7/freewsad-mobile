@@ -1,9 +1,11 @@
-import React from 'react';
 import Body from '../components/Body';
 import Filter from '../components/Filter';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
 import Side from '../components/Side';
+
+
+
 
 
 function Home() {
@@ -12,7 +14,6 @@ function Home() {
             <div className="container-fluid p-0">
                 <Header />
             </div>
-
             <main className="container-fluid p-0 m-0">
                 <div className="row g-5 w-100 p-0 m-0">
                     <Filter />
@@ -22,7 +23,7 @@ function Home() {
 
             </main>
 
-        <Footer />
+            <Footer />
         </div>
     )
 }
