@@ -13,18 +13,17 @@ import Cars from './pages/Cars';
 
 function App() {
   return (
-    <div className="App">
-      {/* Routers */}
-      <Router>
-        <Switch>
-          <Route path='/' exact component={Home} />
-          <Route path='/cars' component={Cars} />
-          <Route path='/flights' component={Flight} />
-          <Route path='/filter' component={Filters} />
 
-        </Switch>
-      </Router>
-    </div>
+    <Router>
+      <Switch>
+        <Route path='/' exact component={Home} />
+        <Route path='/cars' component={Cars} />
+        <Route path='/flights' component={Flight} />
+        <Route path='/filter' component={Filters} />
+
+      </Switch>
+    </Router>
+
 
   );
 }

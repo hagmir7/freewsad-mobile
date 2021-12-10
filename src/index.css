@@ -52,6 +52,11 @@ body{
   margin-right: 2px;
   margin-left: -3px;
 }
+
+.container-fluid, container, row{
+  padding: 0!important;
+  margin: 0!important;
+}
 .date-item{
   border: none;
   padding: 6px;

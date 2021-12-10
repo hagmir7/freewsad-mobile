@@ -7,60 +7,57 @@ export default function CarsFilter() {
     <h4 className="h5 m-2">Filter by :</h4>
     <table className="table w-100">
      <tbody>
-
-      <tr><th>Seats</th><td></td> </tr>
+      <tr><th>Seats</th><td></td></tr>
       <tr>
-       <td><input type='checkbox' /> 2 Seat</td>
-       <td></td>
-      </tr>
-      <tr>
-       <td><input type='checkbox' /> 4 Seats</td>
-       <td></td>
+       <td><input type='checkbox' /> 2 Seat</td><td></td>
       </tr>
 
       <tr>
-       <td><input type='checkbox' /> 5 Seats</td>
-       <td></td>
-      </tr>
-      <tr>
-       <td><input type='checkbox' /> 6 Seats</td>
-       <td></td>
+       <td><input type='checkbox' /> 4 Seats</td><td></td>
       </tr>
 
-      <tr><th>Bags</th> <th></th></tr>
       <tr>
-       <td><input type='checkbox' /> 1Bag</td>
-       <td></td>
-      </tr>
-      <tr>
-       <td><input type='checkbox' /> 2Bag</td>
-       <td></td>
-      </tr>
-      <tr>
-       <td><input type='checkbox' /> 3bag</td>
-       <td></td>
-      </tr>
-      <tr>
-       <td><input type='checkbox' /> +3bag</td>
-       <td></td>
-      </tr>
-      <tr />
-
-      <tr><th>Doors</th> <th></th></tr>
-      <tr>
-       <td><input type='checkbox' /> 2 Doors</td>
-       <td></td>
-      </tr>
-      <tr>
-       <td><input type='checkbox' /> 4 Doors</td>
-       <td></td>
+       <td><input type='checkbox' /> 5 Seats</td><td></td>
       </tr>
 
-      <tr><th>Brand</th> <th></th></tr>
+      <tr>
+       <td><input type='checkbox' /> 6 Seats</td><td></td>
+      </tr>
+
+      <tr><th>Bags</th><td></td></tr>
+
+      <tr>
+       <td><input type='checkbox' /> 1Bag</td><td></td>
+      </tr>
+
+      <tr>
+       <td><input type='checkbox' /> 2Bag</td><td></td>
+      </tr>
+
+      <tr>
+       <td><input type='checkbox' /> 3bag</td><td></td>
+      </tr>
+
+      <tr>
+       <td><input type='checkbox' /> 4bag</td><td></td>
+      </tr>
+
+      <tr><th>Doors</th><th></th></tr>
+
+      <tr>
+       <td><input type='checkbox' /> 2 Doors</td><td></td>
+      </tr>
+
+      <tr>
+       <td><input type='checkbox' /> 4 Doors</td><td></td>
+      </tr>
+
+      <tr><th>Brand</th><td></td></tr>
 
       <tr>
        <td><input type='checkbox' /> Ferrari</td>
-       <td><img width="30px" src="https://logos-world.net/wp-content/uploads/2020/05/Ferrari-Logo-700x394.png" alt="Ferrari" /></td>
+       <td>
+        <img width="30px" src="https://logos-world.net/wp-content/uploads/2020/05/Ferrari-Logo-700x394.png" alt="Ferrari" /></td>
       </tr>
 
       <tr>

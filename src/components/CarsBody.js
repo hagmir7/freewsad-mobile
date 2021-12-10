@@ -6,16 +6,16 @@ export default function CarsBody() {
 
  const carInfo = [
   {
-   name: 'Dacia', doors: 4, seats: 5, bags: 3, id: 1, img: 'https://www.autocar.co.uk/sites/autocar.co.uk/files/images/car-reviews/first-drives/legacy/dacia_bigster_concept_9hr00_14012021_3.jpg', description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, mollitia.',
+   name: 'Dacia', doors: 4, seats: 5, bags: 3, key: 1, img: 'https://www.autocar.co.uk/sites/autocar.co.uk/files/images/car-reviews/first-drives/legacy/dacia_bigster_concept_9hr00_14012021_3.jpg', description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, mollitia.',
   },
   {
-   name: 'Masirati', doors: 2, seats: 2, bags: 1, id: 2, img: 'https://www.autocar.co.uk/sites/autocar.co.uk/files/images/car-reviews/first-drives/legacy/dacia_bigster_concept_9hr00_14012021_3.jpg', description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, mollitia.',
+   name: 'Masirati', doors: 2, seats: 2, bags: 1, key: 2, img: 'https://www.autocar.co.uk/sites/autocar.co.uk/files/images/car-reviews/first-drives/legacy/dacia_bigster_concept_9hr00_14012021_3.jpg', description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, mollitia.',
   },
   {
-   name: 'Ferrari', doors: 2, seats: 2, bags: 2, id: 3, img: 'https://www.autocar.co.uk/sites/autocar.co.uk/files/images/car-reviews/first-drives/legacy/dacia_bigster_concept_9hr00_14012021_3.jpg', description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, mollitia.',
+   name: 'Ferrari', doors: 2, seats: 2, bags: 2, key: 3, img: 'https://www.autocar.co.uk/sites/autocar.co.uk/files/images/car-reviews/first-drives/legacy/dacia_bigster_concept_9hr00_14012021_3.jpg', description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, mollitia.',
   },
   {
-   name: 'B M W', doors: 4, seats: 5, bags: 3, id: 4, img: 'https://www.autocar.co.uk/sites/autocar.co.uk/files/images/car-reviews/first-drives/legacy/dacia_bigster_concept_9hr00_14012021_3.jpg', description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, mollitia.',
+   name: 'B M W', doors: 4, seats: 5, bags: 3, key: 4, img: 'https://www.autocar.co.uk/sites/autocar.co.uk/files/images/car-reviews/first-drives/legacy/dacia_bigster_concept_9hr00_14012021_3.jpg', description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, mollitia.',
   }
  ]
 
@@ -29,7 +29,8 @@ export default function CarsBody() {
     doors={item.doors}
     seats={item.seats}
     bags={item.bags}
-    id={item.id}
+    key={item.key}
+
    />
   )
 

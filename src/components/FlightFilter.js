@@ -9,7 +9,7 @@ export default function FlightFilter() {
      <table className="table">
       <tbody>
 
-       <tr><th>Stops</th><td></td> </tr>
+       <tr><th>Stops</th><td></td></tr>
        <tr>
         <td><input type='checkbox' /> NonStop</td>
         <td>$00</td>
@@ -18,16 +18,15 @@ export default function FlightFilter() {
         <td><input type='checkbox' /> Stop</td>
         <td>$145</td>
        </tr>
-
        <tr>
         <td><input type='checkbox' /> +2 Stops</td>
         <td>$145</td>
        </tr>
-       <tr><th>COVED-19 Policies</th> <th></th></tr>
-       <tr> <td><input type='checkbox' /> Flexible Changes</td> <td></td></tr>
-       <tr> <td><input type='checkbox' /> Flexible Cancellations</td> <td></td> </tr>
-       <tr><th>Airlines</th> <th></th></tr>
-       <tr><th className="h6">Select all airlines</th> <th></th></tr>
+       <tr><th>COVED-19 Policies</th><th></th></tr>
+       <tr><td><input type='checkbox' /> Flexible Changes</td><td></td></tr>
+       <tr><td><input type='checkbox' /> Flexible Cancellations</td><td></td></tr>
+       <tr><th>Airlines</th><th></th></tr>
+       <tr><th className="h6">Select all airlines</th><th></th></tr>
        <tr>
         <td><input type='checkbox' /> Egyptair</td>
         <td>$435</td>
@@ -44,7 +43,7 @@ export default function FlightFilter() {
         <td><input type='checkbox' /> Qatar Airways</td>
         <td>$432</td>
        </tr>
-       <tr><th>Alliance</th> <th></th></tr>
+       <tr><th>Alliance</th><th></th></tr>
 
        <tr>
         <td><input type='checkbox' /> Oneworld</td>

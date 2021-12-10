@@ -9,7 +9,7 @@ export default function FilterForm() {
    <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6">
     <div className="row">
      <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6">
-      <label for="form">From</label>
+      <label htmlFor="form">From</label>
       <div className="input-group date">
        <div className="input-group-text icon-input bg-white border-0 p-0">
         <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" className="bi bi-geo-alt" viewBox="0 0 16 16">
@@ -21,7 +21,7 @@ export default function FilterForm() {
       </div>
      </div>
      <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6">
-      <label for="to">To</label>
+      <label htmlFor="to">To</label>
       <div className="input-group date">
        <div className="input-group-text icon-input input-group-text icon-input bg-white border-0 p-0">
         <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" className="bi bi-geo-alt" viewBox="0 0 16 16">
@@ -36,13 +36,13 @@ export default function FilterForm() {
     <div className="d-flex gap-5 my-4">
      <div className="form-check">
       <input className="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" />
-      <label className="form-check-label" for="flexRadioDefault1">
+      <label className="form-check-label" htmlFor="flexRadioDefault1">
        Round-trip
       </label>
      </div>
      <div className="form-check">
-      <input className="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked />
-      <label className="form-check-label" for="flexRadioDefault2">
+      <input className="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" defaultChecked />
+      <label className="form-check-label" htmlFor="flexRadioDefault2">
        One-way
       </label>
      </div>
@@ -63,7 +63,7 @@ export default function FilterForm() {
 
     <div className="form-check mt-4">
      <input className="form-check-input" type="checkbox" value="" id="flexCheckChecked" />
-     <label className="form-check-label" for="flexCheckChecked">
+     <label className="form-check-label" htmlFor="flexCheckChecked">
       Receive our travel deals newletter
      </label>
     </div>

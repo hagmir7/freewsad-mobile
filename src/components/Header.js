@@ -42,9 +42,9 @@ function Header() {
             <header className="blog-header py-2 bg-white border-bottom">
                 <div className="row align-items-center">
                     <div className="col-sm-12 col-md-4 col-lg-3 col-x-3">
-                        <h1 className='h3 m-0'><a href="index.html"><img width='50px' src={Logo} alt='logo' />
-                            Moshitools
-                        </a></h1>
+                        <h1 className='h3 m-0'>
+                            <Link to='/'><img width='50px' src={Logo} alt='Moshitools' /> Moshitools</Link>
+                        </h1>
                     </div>
                     <div className="col-sm-12 col-md-8 col-lg-9 col-x-9">
                     </div>
