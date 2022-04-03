@@ -5,6 +5,7 @@ import Booking from '../assets/img/booking.png';
 import Skyscanner from '../assets/img/Skyscanner.jpg';
 import Pagention from "./Pagination";
 import SmallNav from "./SmallNav";
+import GoogleAd from "../ads/Hr";
 
 function Body() {
     // JSON Date
@@ -39,7 +40,7 @@ function Body() {
 
             <SmallNav />
             {data}
-            
+            <GoogleAd slot="4567237334" googleAdId="ca-pub-6043226569102012"/>
             <Pagention />
            
         </div>
