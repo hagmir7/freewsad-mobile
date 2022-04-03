@@ -5,7 +5,6 @@ import Booking from '../assets/img/booking.png';
 import Skyscanner from '../assets/img/Skyscanner.jpg';
 import Pagention from "./Pagination";
 import SmallNav from "./SmallNav";
-import Hr from "../ads/Hr";
 
 function Body() {
     // JSON Date
@@ -36,10 +35,13 @@ function Body() {
     });
     return (
         <div className="col-md-8 col-lg-8 col-xl-6 p-3 mt-3 ">
+           
+
             <SmallNav />
             {data}
-            <Hr />
+            
             <Pagention />
+           
         </div>
 
     )

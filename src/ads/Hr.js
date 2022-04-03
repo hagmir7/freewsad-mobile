@@ -1,28 +1,46 @@
 import React, { Component  } from 'react';
 
+import PropTypes from 'prop-types';
 
-class Hr extends Component {
+class GoogleAd extends Component {
+    googleInit = null;
+  
     componentDidMount() {
-        (window.adsbygoogle = window.adsbygoogle || []).push({})
-       }
-
-    render() {
-        return (
-                <ins className="adsbygoogle"
-                    style = { {display:"inline-block"} }
-                    data-ad-client="ca-pub-6043226569102012"
-                    data-ad-slot="4567237334"
-                    data-ad-format="auto"
-                    data-full-width-responsive="true">
-                </ins>
-    
-        )
-
+      const { timeout } = this.props;
+      this.googleInit = setTimeout(() => {
+        if (typeof window !== 'undefined')
+          (window.adsbygoogle = window.adsbygoogle || []).push({});
+      }, timeout);
     }
-}
-
-
-
-
-
-export default Hr;
+  
+    componentWillUnmount() {
+      if (this.googleInit) clearTimeout(this.googleInit);
+    }
+  
+    render() {
+      const { classNames, slot, googleAdId, style, format } = this.props;
+      return (
+        <div className={classNames}>
+          <ins
+            className="adsbygoogle"
+            style={style || { display: 'block', textAlign: "center" }}
+            data-ad-client={googleAdId}
+            data-ad-slot={slot}
+            data-ad-format={format || "auto"}
+            data-full-width-responsive="true"
+          ></ins>
+        </div>
+      );
+    }
+  }
+  GoogleAd.propTypes = {
+    classNames: PropTypes.string,
+    slot: PropTypes.string,
+    timeout: PropTypes.number,
+    googleAdId: PropTypes.string,
+  };
+  GoogleAd.defaultProps = {
+    classNames: '',
+    timeout: 200,
+  };
+  export default GoogleAd;

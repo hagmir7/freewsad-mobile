@@ -9,6 +9,7 @@ import {
 import Filters from './pages/Filter';
 import Flight from './pages/Flight';
 import Cars from './pages/Cars';
+import About from "./pages/About";
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <Route path='/cars' component={Cars} />
         <Route path='/flights' component={Flight} />
         <Route path='/filter' component={Filters} />
+        <Route path='/about' component={About} />
 
       </Switch>
     </Router>
